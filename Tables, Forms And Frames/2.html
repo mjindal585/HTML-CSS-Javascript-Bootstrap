@@ -1,0 +1,28 @@
+<html>
+    <head>
+            <style> 
+                    table, th, td { 
+                        border: 1px solid black; 
+                    } 
+                    
+                    table { 
+                        border-spacing: 5px; 
+                    } 
+                </style>
+    </head>
+
+    <body>
+        <h1>Visitors Information</h1><hr><br><br>
+        <table >
+        <form>
+            <tr><td>Email Id :</td><td> <input type="email"></td></tr>
+            <tr><td>Users Interest :</td><td><input type="checkbox" name="interst1" id="interst1"><label for="interest1">Web </label><input type="checkbox" name="interst2" id="interst2"><label for="interest2">Purchase</label></td></tr>
+            <tr><td>Occupation :</td><td><select name="occupation"><option value="Default">Select One</option><option value="private">Private</option><option value="Public">Public</option></select></td></tr>
+            <tr><td>Want us to send junk mails ?</td><td><input type="radio" id="yes" name="yes">
+                <label for="yes">absolutely</label><input type="radio" id="no" name="no">
+                <label for="no">no way man</label></td></tr> 
+            <tr align="center"><td align="center"><button type="submit">Submit</button> <button type="reset">Reset</button></td></tr>
+        </form>
+        </table>
+    </body>
+</html>
